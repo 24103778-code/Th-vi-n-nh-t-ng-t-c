@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Photo Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Interactive Photo Gallery</h1>
+    </header>
+
+    <main>
+
+        <!-- Vùng hiển thị ảnh -->
+        <div id="image">
+            Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+        </div>
+
+        <!-- Các hình ảnh -->
+        <div class="gallery">
+
+            <img
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600"
+                alt="Beautiful mountain landscape"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600"
+                alt="Beautiful beach"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600"
+                alt="Green forest"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
+                alt="Lake and mountains"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600"
+                alt="Mountain and lake"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600"
+                alt="Mountain landscape"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+            >
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
